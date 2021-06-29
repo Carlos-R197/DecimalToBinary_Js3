@@ -12,4 +12,8 @@ describe('Test my base 10 to base 2 function', () => {
     it('Should return 71 in binary', () => {
         expect(toBase2(71)).toBe('1000111')
     })
+
+    it('Should return 6274 in binary', () => {
+        expect(toBase2(6274)).toBe('1100010000010')
+    })
 })
